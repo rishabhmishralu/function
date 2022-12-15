@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,initial-scale=1.0">
+    <title>function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript</h1>
+   <h2>Function</h2>
+   <hr>
+    <p><b>1-Create one function with zero parameter having a console statement;</b></p>
+    <pre>
+        function fun(){
+        
+            console.log("function is here");
+        
+        }
+        fun()</pre>
+        <hr>
+        <p><b>2-Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</b></p>
+        <pre>function sum(a,b){
+            console.log(a+b); 
+        }
+        sum(3,4)</pre>
+        <hr>
+        <p><b>3-Create one arrow function</b></p>
+        <pre>
+            sum=(a,b)=>{
+                 console.log(( a*b));
+                 }
+                
+                 sum(3,5)
+        </pre>
+        <hr>
+
+        <p><b>4- "Print output: 
+            var x = 21;
+            var girl = function () {
+                console.log(x);
+                var x = 20;
+            };
+            girl ();"</b></p>
+            <span>undefined</span>
+            <hr>
+
+         <p><b> 5-"Print output
+
+            var x = 21;
+            a();
+            b();
+            
+              function a() {
+                
+               x = 20;
+              console.log(x);
+            };
+             function b() {
+                
+                x = 40;
+               console.log(x);
+            };"</b></p>   
+            <span>20
+                , 40</p>
+            </span>
+            <p><b>6-"Print output
+
+                var x = 21;
+                a();
+                b();
+                
+                  function a() {
+                    
+                   x = 20;
+                  console.log(x);
+                };
+                 function b() {
+                    
+                    x = 40;
+                   console.log(x);
+                };"</b></p>
+               <span>20</span>
+<hr>
+
+    <p><b>7-Write a function that accepts parameter n and returns factorial of n</b></p>
+    <pre>function fac(n){
+
+        let fact=1;
+        for(let i=n;i>=1;i--){
+            fact=fact*i
+        }
+        return (fact)
+    
+    }
+    fac(5)
+    console.log(fac(5));</pre>
+    <hr>
+    <script src="./main.js"></script>
+
+</body>
+</html>
